@@ -13,7 +13,7 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,  
 figure, figcaption, footer, header, hgroup,  
 menu, nav, output, ruby, section, summary,  
-time, mark, audio, video, {  
+time, mark, audio, video {  
 margin: 0;  
 padding: 0;  
 border: 0;  
@@ -22,7 +22,7 @@ font: inherit;
 vertical-align: baseline; 
 box-sizing: border-box;
 /* Temporary border */
-border: 1px solid grey;
+/* border: 1px solid grey; */
 }
 
 /* Temporary Colored Borders */
@@ -47,6 +47,11 @@ footer {
 
 #primary-header {
     padding: 0 90% 0 10%;
-    border: 1px solid black;
-    display: flex;
+}
+.primary-nav {
+    padding: 5% 10px 5%;
+    
+}
+.primary-nav a {
+    
 }
