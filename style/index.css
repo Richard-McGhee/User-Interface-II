@@ -17,7 +17,7 @@ time, mark, audio, video {
 margin: 0;  
 padding: 0;  
 border: 0;  
-font-size: 100%;  
+font-size: 62.5%;  
 font: inherit;  
 vertical-align: baseline; 
 box-sizing: border-box;
@@ -94,7 +94,7 @@ footer {
     width: 100%;
 }
 .about-me a {
-    font-size: 19px;
+    font-size: 1.5rem;
     border: 2.5px dotted red;
     padding-bottom: 1%;
     text-align: center;
@@ -102,12 +102,12 @@ footer {
     width: 100%;
 }
 .about-me p {
-    font-size: 20px;
+    font-size: 1.3rem;
     padding-top: 5%;
 }
 #main-section img {
-    width: 850px;
-    height: 500px;
+    width: 100vh;
+    height: 65vh;
 }
 
 /* Project Section and Gallery */
@@ -123,8 +123,8 @@ footer {
     text-align: center;
 }
 .secondary-gallery img {
-    width: 300px;
-    height: 300px;
+    width: 45vh;
+    height: 45vh;
 }
 
 /* Footer Styling */
@@ -150,7 +150,8 @@ footer a:hover {
 /* Media Queries at 800 */
 
 @media (max-width: 800px) {
-    #main-section img {
+    .about-me p{
+        font-size: 1.1rem;
     }
 }
 
