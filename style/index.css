@@ -42,16 +42,28 @@ header {
 footer {
     border: 5px solid pink
 }
+* {
+    background-color: lightslategray;
+}
 
 /* Header Styling */
 
 #primary-header {
-    padding: 0 90% 0 10%;
+    padding: 0 0 0 15px;
 }
 .primary-nav {
     padding: 5% 10px 5%;
-    
+    border: 1px solid red;    
 }
-.primary-nav a {
-    
+.primary-nav ul {
+    list-style-type: none;
+    display: flex;
+}
+.primary-nav ul a {
+    border: 2px solid black;
+    color: darkolivegreen;
+}
+.primary-nav ul a:hover {
+    background-color: pink;
+    color: pink;
 }
