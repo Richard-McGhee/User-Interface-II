@@ -153,6 +153,10 @@ footer a:hover {
     .about-me p{
         font-size: 1.1rem;
     }
+    .secondary-gallery img {
+        width: 30vh;
+        height: 30vh;
+    }
 }
 
 /* Media Queries at 500 */
