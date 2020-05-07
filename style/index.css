@@ -162,6 +162,13 @@ footer a:hover {
 /* Media Queries at 500 */
 
 @media (max-width: 500px) {
+    #main-section img {
+        width: 55vh;
+        height: 70vh;
+    }
+    .about-me p{
+        font-size: 1.04rem;
+    }
     .secondary-gallery img {
         width: 33vh;
         height: 33vh;
