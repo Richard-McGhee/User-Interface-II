@@ -91,15 +91,15 @@ footer {
     justify-content: flex-end;
     padding: 0 5% 5% 5%;
     line-height: 1.5;
-    width: 50%;
+    width: 100%;
 }
 .about-me a {
     font-size: 19px;
     border: 2.5px dotted red;
-    margin-right: 60%;
     padding-bottom: 1%;
     text-align: center;
     color: darkred;
+    width: 100%;
 }
 .about-me p {
     font-size: 20px;
@@ -145,4 +145,17 @@ footer a:hover {
     background-color: black;
     color: white;
     border: 2px dotted white;
+}
+
+/* Media Queries at 800 */
+
+@media (max-width: 800px) {
+    #main-section img {
+    }
+}
+
+/* Media Queries at 500 */
+
+@media (max-width: 500px) {
+
 }
