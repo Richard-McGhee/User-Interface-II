@@ -26,7 +26,7 @@ font-family: helvetica;
 
 /* Temporary Colored Borders */
 
-header {
+/* header {
     border: 5px solid greenyellow;
 }
 #main-section {
@@ -40,9 +40,13 @@ header {
 }
 footer {
     border: 5px solid pink
-}
+} */
+
+/* Background and Text Color */
+
 * {
-    background-color: lightslategray;
+    color: #d3c422;
+    background-color: black;
 }
 
 /* Header Styling */
@@ -51,20 +55,27 @@ footer {
     padding: 0 0 0 15px;
 }
 .primary-nav {
-    padding: 5% 10px 5%;
-    border: 1px solid red;    
+    padding: 0 10px 3% 5%;
+    border-bottom: 2px solid red;    
 }
 .primary-nav ul {
     list-style-type: none;
     display: flex;
 }
 .primary-nav ul a {
-    border: 2px solid black;
-    color: darkolivegreen;
+    border: 2px solid #d3c422;
+    color: darkred;
     padding: 1%;
 }
+.primary-nav ul li {
+    color: darkred;
+}
 .primary-nav ul a:hover {
-    background-color: pink;
+    background-color: darkred;
+    color: pink;
+}
+.primary-nav ul li:hover {
+    background-color: darkred;
     color: pink;
 }
 
@@ -72,6 +83,7 @@ footer {
 
 #main-section {
     display: flex;
+    padding-bottom: 2%;
 }
 .about-me {
     display: flex;
@@ -83,16 +95,19 @@ footer {
 }
 .about-me a {
     font-size: 19px;
-    border: 2.5px dotted gold;
-    margin-right: 80%;
-    margin-bottom: 3%;
+    border: 2.5px dotted red;
+    margin-right: 60%;
+    padding-bottom: 1%;
     text-align: center;
+    color: darkred;
 }
 .about-me p {
-    font-size: 22px;
+    font-size: 20px;
+    padding-top: 5%;
 }
-.main-section-img {
-    width: 50%;
+#main-section img {
+    width: 850px;
+    height: 500px;
 }
 
 /* Project Section and Gallery */
@@ -100,4 +115,30 @@ footer {
 #gallery {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1%;
+}
+.secondary-gallery p {
+    padding: 1%;
+    text-align: center;
+}
+.secondary-gallery img {
+    width: 300px;
+    height: 300px;
+}
+
+/* Footer Styling */
+
+footer {
+    text-align: center;
+}
+footer a {
+    border: 2px solid black;
+    background-color: #d3c422;
+    color: black;
+}
+footer a:hover {
+    background-color: black;
+    color: white;
+    border: 2px dotted white;
 }
