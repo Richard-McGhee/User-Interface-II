@@ -131,6 +131,10 @@ footer {
 
 footer {
     text-align: center;
+    background-color: darkred;
+}
+footer h2 {
+    background-color: darkred;
 }
 footer a {
     border: 2px solid black;
