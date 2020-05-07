@@ -1,1 +1,176 @@
 /* Add CSS styling here */
+
+
+html, body, div, span, applet, object, iframe,  
+p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 62.5%;  
+font: inherit;  
+vertical-align: baseline; 
+box-sizing: border-box;
+font-family: helvetica;
+}
+
+/* Temporary Colored Borders */
+
+/* header {
+    border: 5px solid greenyellow;
+}
+#main-section {
+    border: 5px solid purple;
+}
+.about-me {
+    border: 3px solid blue;
+}
+#project-section {
+    border: 5px solid red;
+}
+footer {
+    border: 5px solid pink
+} */
+
+/* Background and Text Color */
+
+* {
+    color: #d3c422;
+    background-color: black;
+}
+
+/* Header Styling */
+
+#primary-header {
+    padding: 0 0 0 15px;
+}
+.primary-nav {
+    padding: 0 10px 3% 5%;
+    border-bottom: 2px solid red;    
+}
+.primary-nav ul {
+    list-style-type: none;
+    display: flex;
+}
+.primary-nav ul a {
+    border: 2px solid #d3c422;
+    color: darkred;
+    padding: 1%;
+}
+.primary-nav ul li {
+    color: darkred;
+}
+.primary-nav ul a:hover {
+    background-color: darkred;
+    color: pink;
+}
+.primary-nav ul li:hover {
+    background-color: darkred;
+    color: pink;
+}
+
+/* Main Section Styling */
+
+#main-section {
+    display: flex;
+    padding-bottom: 2%;
+}
+.about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 5% 5% 5%;
+    line-height: 1.5;
+    width: 100%;
+}
+.about-me a {
+    font-size: 1.5rem;
+    border: 2.5px dotted red;
+    padding-bottom: 1%;
+    text-align: center;
+    color: darkred;
+    width: 100%;
+}
+.about-me p {
+    font-size: 1.3rem;
+    padding-top: 5%;
+}
+#main-section img {
+    width: 100vh;
+    height: 65vh;
+}
+
+/* Project Section and Gallery */
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1%;
+}
+.secondary-gallery p {
+    padding: 1%;
+    text-align: center;
+}
+.secondary-gallery img {
+    width: 45vh;
+    height: 45vh;
+}
+
+/* Footer Styling */
+
+footer {
+    text-align: center;
+    background-color: darkred;
+}
+footer h2 {
+    background-color: darkred;
+}
+footer a {
+    border: 2px solid black;
+    background-color: #d3c422;
+    color: black;
+}
+footer a:hover {
+    background-color: black;
+    color: white;
+    border: 2px dotted white;
+}
+
+/* Media Queries at 800 */
+
+@media (max-width: 800px) {
+    .about-me p{
+        font-size: 1.1rem;
+    }
+    .secondary-gallery img {
+        width: 30vh;
+        height: 30vh;
+    }
+}
+
+/* Media Queries at 500 */
+
+@media (max-width: 500px) {
+    #main-section img {
+        width: 55vh;
+        height: 70vh;
+    }
+    .about-me p{
+        font-size: 1.04rem;
+    }
+    .secondary-gallery img {
+        width: 33vh;
+        height: 33vh;
+    }
+}
