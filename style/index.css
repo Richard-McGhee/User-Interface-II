@@ -21,8 +21,7 @@ font-size: 100%;
 font: inherit;  
 vertical-align: baseline; 
 box-sizing: border-box;
-/* Temporary border */
-/* border: 1px solid grey; */
+font-family: helvetica;
 }
 
 /* Temporary Colored Borders */
@@ -62,8 +61,43 @@ footer {
 .primary-nav ul a {
     border: 2px solid black;
     color: darkolivegreen;
+    padding: 1%;
 }
 .primary-nav ul a:hover {
     background-color: pink;
     color: pink;
+}
+
+/* Main Section Styling */
+
+#main-section {
+    display: flex;
+}
+.about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 5% 5% 5%;
+    line-height: 1.5;
+    width: 50%;
+}
+.about-me a {
+    font-size: 19px;
+    border: 2.5px dotted gold;
+    margin-right: 80%;
+    margin-bottom: 3%;
+    text-align: center;
+}
+.about-me p {
+    font-size: 22px;
+}
+.main-section-img {
+    width: 50%;
+}
+
+/* Project Section and Gallery */
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
 }
